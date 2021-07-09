@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- /**
+ * CoderkubeTeam
+ * Copyright(C) 2021 CoderkubeTeam <support@coderkube.com>
+ * @package Coderkube_Team
+ * @copyright Copyright(C) 2021 CoderkubeTeam (https://coderkube.com/)
+ * @author CoderkubeTeam <support@coderkube.com>
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Module/etc/module.xsd">
+    <module name="Coderkube_Team" setup_version="1.0.1"/>
+</config>

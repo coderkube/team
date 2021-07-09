@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Coderkube::top_level" module="Coderkube_Team" resource="Coderkube_Team::Team" sortOrder="11" title="Coderkube"/>
+		<add action="our_team/category/index" id="Coderkube::Coderkube_Team" module="Coderkube_Team" parent="Coderkube::top_level" resource="Coderkube_Team::Team" sortOrder="10" title="Manage Departments"/>
+		<add action="our_team/member/index" id="Coderkube::Coderkube_Member" module="Coderkube_Team" parent="Coderkube::top_level" resource="Coderkube_Team::Team" sortOrder="20" title="Manage Members"/>
+		<add action="adminhtml/system_config/edit/section/team_tab" id="Coderkube::Coderkube" module="Coderkube_Team" parent="Coderkube::top_level" resource="Coderkube_Team::Team" sortOrder="30" title="Configation"/>
+	</menu>
+</config>
